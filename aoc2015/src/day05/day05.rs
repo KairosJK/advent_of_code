@@ -42,6 +42,16 @@ fn has_skipped_repeat(input: &str) -> bool {
 }
 
 fn has_pair_no_overlap(input: &str) -> bool {
+    let unicode_vector = input.as_bytes().to_vec();
+    for i in 1..unicode_vector.len() {
+        let current_pair: (u8, u8) = (unicode_vector[i-1], unicode_vector[i]);
+        for j in i+2..unicode_vector.len() {
+            let comparison_pair : (u8, u8) = (unicode_vector[j-1], unicode_vector[j]);
+            if current_pair.eq(&comparison_pair) {
+                return true;
+            }
+        }
+    }
     false
 }
 
