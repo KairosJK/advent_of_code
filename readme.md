@@ -4,7 +4,7 @@ My solutions to advent of code challenges, written in rust and using cargo 🦀
 
 ## 🖳 How to run:
 
-Select days can be run using cargo with the command:
+Select days can be run while inside a year folder using cargo with the command:
 
 ```cargo run --bin dayXX```
 
@@ -18,14 +18,14 @@ Further, input data can be changed by editing the `dayXX.input` file found in th
 
 |  Year  |  Stars Gained  |
 | ------ | -------------- |
-| **2015** | ⭐ 10 |
+| **2015** | ⭐ 12 |
 | **2016** | ⭐ 0  |
 | **2017** | ⭐ 0  |
 | **2018** | ⭐ 0  |
 | **2019** | ⭐ 0  |
 | **2020** | ⭐ 0  |
 | **2021** | ⭐ 0  |
-| **2022** | ⭐ 0  |
+| **2022** | ⭐ 2  |
 
 
 ## 👤 Authored by 
