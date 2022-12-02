@@ -18,14 +18,14 @@ Further, input data can be changed by editing the `dayXX.input` file found in th
 
 |  Year  |  Stars Gained  |
 | ------ | -------------- |
-| **2015** | ⭐ 12 |
+| **2015** | ⭐ 14 |
 | **2016** | ⭐ 0  |
 | **2017** | ⭐ 0  |
 | **2018** | ⭐ 0  |
 | **2019** | ⭐ 0  |
 | **2020** | ⭐ 0  |
 | **2021** | ⭐ 0  |
-| **2022** | ⭐ 2  |
+| **2022** | ⭐ 4  |
 
 
 ## 👤 Authored by 
