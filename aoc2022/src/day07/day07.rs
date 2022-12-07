@@ -53,10 +53,6 @@ fn problem_two(input: &String) -> usize {
 }
 
 fn main() {
-    /*
-    Problem 1: 1501149
-    Problem 2: 10096985
-    */
     let input_data = read_to_string("input/day07.input").unwrap();
     println!("Problem 1: {}", problem_one(&input_data));
     println!("Problem 2: {}", problem_two(&input_data));
